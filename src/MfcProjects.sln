@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.33530.394
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MfcProjects", "IMP_Projects.vcxproj", "{3D53E5D9-204C-4901-963D-5AF350858E22}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyExtensionDll", "MyExtensionDll\MyExtensionDll.vcxproj", "{BB1EC30A-5CEF-4F39-A9DD-2148AA695EF0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyExtensionDll_Client", "MyExtensionDll_Client\MyExtensionDll_Client.vcxproj", "{0DC6D127-B68D-4E4C-BD03-33EB8809970E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyRegularSharedDll", "MyRegularSharedDll\MyRegularSharedDll.vcxproj", "{D750DF1B-B7C4-46D8-A990-2F1F3FDDF373}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyRegularSharedDll_Client", "MyRegularSharedDll_Client\MyRegularSharedDll_Client.vcxproj", "{CF540F9D-42F8-4193-9F05-8FFDA9D61D8D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyRegularSharedDll_Client_ExplicitLinking", "MyRegularSharedDll_Client_ExplicitLinking\MyRegularSharedDll_Client_ExplicitLinking.vcxproj", "{ED1159A0-527F-4C04-B3EE-8CF3E3D4BA1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{894C1337-F036-49AD-A426-D414DF41D9E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D53E5D9-204C-4901-963D-5AF350858E22}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D53E5D9-204C-4901-963D-5AF350858E22}.Debug|Win32.Build.0 = Debug|Win32
+		{3D53E5D9-204C-4901-963D-5AF350858E22}.Release|Win32.ActiveCfg = Release|Win32
+		{3D53E5D9-204C-4901-963D-5AF350858E22}.Release|Win32.Build.0 = Release|Win32
+		{BB1EC30A-5CEF-4F39-A9DD-2148AA695EF0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB1EC30A-5CEF-4F39-A9DD-2148AA695EF0}.Debug|Win32.Build.0 = Debug|Win32
+		{BB1EC30A-5CEF-4F39-A9DD-2148AA695EF0}.Release|Win32.ActiveCfg = Release|Win32
+		{BB1EC30A-5CEF-4F39-A9DD-2148AA695EF0}.Release|Win32.Build.0 = Release|Win32
+		{0DC6D127-B68D-4E4C-BD03-33EB8809970E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0DC6D127-B68D-4E4C-BD03-33EB8809970E}.Debug|Win32.Build.0 = Debug|Win32
+		{0DC6D127-B68D-4E4C-BD03-33EB8809970E}.Release|Win32.ActiveCfg = Release|Win32
+		{D750DF1B-B7C4-46D8-A990-2F1F3FDDF373}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D750DF1B-B7C4-46D8-A990-2F1F3FDDF373}.Debug|Win32.Build.0 = Debug|Win32
+		{D750DF1B-B7C4-46D8-A990-2F1F3FDDF373}.Release|Win32.ActiveCfg = Release|Win32
+		{D750DF1B-B7C4-46D8-A990-2F1F3FDDF373}.Release|Win32.Build.0 = Release|Win32
+		{CF540F9D-42F8-4193-9F05-8FFDA9D61D8D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF540F9D-42F8-4193-9F05-8FFDA9D61D8D}.Debug|Win32.Build.0 = Debug|Win32
+		{CF540F9D-42F8-4193-9F05-8FFDA9D61D8D}.Release|Win32.ActiveCfg = Release|Win32
+		{ED1159A0-527F-4C04-B3EE-8CF3E3D4BA1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED1159A0-527F-4C04-B3EE-8CF3E3D4BA1E}.Debug|Win32.Build.0 = Debug|Win32
+		{ED1159A0-527F-4C04-B3EE-8CF3E3D4BA1E}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB1EC30A-5CEF-4F39-A9DD-2148AA695EF0} = {894C1337-F036-49AD-A426-D414DF41D9E3}
+		{0DC6D127-B68D-4E4C-BD03-33EB8809970E} = {894C1337-F036-49AD-A426-D414DF41D9E3}
+		{D750DF1B-B7C4-46D8-A990-2F1F3FDDF373} = {894C1337-F036-49AD-A426-D414DF41D9E3}
+		{CF540F9D-42F8-4193-9F05-8FFDA9D61D8D} = {894C1337-F036-49AD-A426-D414DF41D9E3}
+		{ED1159A0-527F-4C04-B3EE-8CF3E3D4BA1E} = {894C1337-F036-49AD-A426-D414DF41D9E3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAF73978-19C1-4803-AC93-2FDCAB61548C}
+	EndGlobalSection
+EndGlobal
